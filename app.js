@@ -1,5 +1,7 @@
+import { getCountry, getCountries } from './fetch-utils.js';
+import { renderCountry } from './render-utils.js';
+console.log('hello from app.js');
 // import functions and grab DOM elements
-
 // let state
 
 // set event listeners 
