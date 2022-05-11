@@ -21,4 +21,3 @@ async function loadData() {
   // use user input to update state 
   // update DOM to reflect the new state
 loadData();
-getCountry();

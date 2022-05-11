@@ -5,7 +5,7 @@ const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 export async function getCountries() {
     const response = await client.from('countries').select('*');
-    console.log(response);
+    //console.log(response);
     return response.data;
 }
 
