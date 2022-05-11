@@ -18,4 +18,4 @@ export function renderCountry(country) {
     return a;
 }
 
-console.log('helo from render utils');
+//console.log('helo from render utils');

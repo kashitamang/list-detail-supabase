@@ -15,4 +15,4 @@ export async function getCountry(id) {
     return response.data;
 }
 
-console.log('hello from fetch');
+//console.log('hello from fetch');
