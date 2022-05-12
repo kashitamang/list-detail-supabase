@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+header {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+
+body {
+    background-image: url('../assets/detail-background.jpg');
+    color: white;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.about {
+    font-family: 'UnifrakturMaguntia', cursive;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 100px;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 50%;
+    border-radius: 15%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    background: black;
+    color: goldenrod;
+    width: 50%;
+    transition: 0.75s ease-in;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+}
+
+.country:hover .overlay {
+    opacity: 80%;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    transition: .5s ease-in;
+}
