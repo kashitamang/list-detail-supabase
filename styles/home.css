@@ -35,7 +35,9 @@ img {
 }
 
 img:hover {
-    opacity: 50%;
+    opacity: 80%;
+    transition: 0.15s ease-in;
+    
 }
 
 a {

@@ -31,6 +31,7 @@ export function renderCountryDetail(country) {
 
     const p = document.createElement('p');
     p.textContent = `${country.name} has a population of ${country.population} and ${country.languages} languages`;
+    p.classList.add('overlay');
 
     div.append(h1, img, p);
     return div;
