@@ -10,6 +10,7 @@ header {
 body {
     background-image: url('../assets/detail-background.jpg');
     color: white;
+    font-family: 'UnifrakturMaguntia', cursive;
 }
 
 .about {
@@ -17,7 +18,7 @@ body {
     display: flex;
     flex-direction:column;
     align-items: center;
-    font-size: 3rem;
+    font-size: 100px;
 }
 
 .country {
@@ -27,12 +28,13 @@ body {
 }
 
 img {
-    width: 70%;
+    width: 50%;
     border-radius: 15%;
 }
 
 p {
     font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
